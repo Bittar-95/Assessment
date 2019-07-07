@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grid Layout Assessment</title>
+  <style>
+    body {
+      margin: 10px;
+      font-family: 'Abel';
+      text-align: center;
+      width: 580px;
+    }
+    .item {
+      color: white;
+      padding: 1.5em 0;
+      font-size: 2em;
+    }
+    .a {
+      background: #0d9;
+     
+    }
+    .b {
+      background: #d90;
+     
+    }
+    .c {
+      background: #9d0;
+      
+    }
+    .d {
+      background: #90d;
+      
+    }
+    .e {
+      background: #d09;
+     
+
+    }
+    .f {
+      background: #09d;
+     
+    }
+    /* Your code starts here */
+    /* CODE AREA */
+    .container 
+    {
+      display: grid;
+      grid-template-columns: 20% 20% 20%;
+      grid-gap: 10px;
+
+
+    }
+    .a {
+       order:2;
+
+
+           }
+    /* END CODE AREA */
+  </style>
+</head>
+
+<body>
+</body>
+<h1>Grid Layout</h1>
+<div class="container">
+  <div class="item a">A</div>
+  <div class="item b">B</div>
+  <div class="item c">C</div>
+  <div class="item d">D</div>
+  <div class="item e">E</div>
+  <div class="item f">F</div>
+</div>
+
+</html>
